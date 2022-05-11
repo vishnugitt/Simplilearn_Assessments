@@ -1,0 +1,9 @@
+ ˛∫æ   1 ]  com/pack/Selenium/Register  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/ramesh/Selenium/Register; main ([Ljava/lang/String;)V  'org/openqa/selenium/chrome/ChromeDriver
+  	    org/openqa/selenium/WebDriver   manage )()Lorg/openqa/selenium/WebDriver$Options;    %org/openqa/selenium/WebDriver$Options   window (()Lorg/openqa/selenium/WebDriver$Window;   " ! $org/openqa/selenium/WebDriver$Window #  maximize % 'http://localhost/Login%20Page/login.php  ' ( ) get (Ljava/lang/String;)V + regname
+ - / . org/openqa/selenium/By 0 1 id ,(Ljava/lang/String;)Lorg/openqa/selenium/By;  3 4 5 findElement :(Lorg/openqa/selenium/By;)Lorg/openqa/selenium/WebElement; 7 java/lang/CharSequence 9 man ; = < org/openqa/selenium/WebElement > ? sendKeys ([Ljava/lang/CharSequence;)V A password C man123 E email G man123@gmail.com I phno K 
+7529638412 M 2/html/body/div[1]/div/div/div[2]/h2[2]/form/button
+ - O P 1 xpath ; R S  click args [Ljava/lang/String; d Lorg/openqa/selenium/WebDriver; 
+SourceFile Register.java InnerClasses Options Window !               /     *∑ ±    
+                    	       È     ïª Y∑ L+π  π  π  +$π & +*∏ ,π 2 Ω 6Y8Sπ : +@∏ ,π 2 Ω 6YBSπ : +D∏ ,π 2 Ω 6YFSπ : +H∏ ,π 2 Ω 6YJSπ : +L∏ Nπ 2 π Q ±    
+   & 	           9  R  k  Ñ  î         ï T U    ç V W   X    Y Z       [	    \	
